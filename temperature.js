@@ -2,7 +2,7 @@ const mqtt = require('mqtt');
 const client = mqtt.connect("mqtt://broker.hivemq.com:1883");
 const topic = 'smartHome/room/temperature';
 
-// Define room names in order
+
 const rooms = ['livingRoom', 'kitchen', 'bedRoom'];
 
 client.on('connect', () => {
@@ -23,7 +23,7 @@ client.on('message', (topic, message) => {
         return; // Exit if parsing fails
     }
 
-    // Map the sensor data (actions) to specific rooms
+    // Map the sensor data to specific rooms
     sensorDataArray.forEach((sensorData, index) => {
         const room = rooms[index]; // Get the room name from the predefined list
         const timestamp = new Date().toISOString(); // Generate the current timestamp
