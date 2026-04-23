@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-09-28" view-index="0" gantt-divider-location="79" resource-divider-location="300" version="3.3.3316" locale="en_US">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="38" order="0"/>
+        <field id="tpd4" name="Begin date" width="20" order="1"/>
+        <field id="tpd5" name="End date" width="20" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="taskLabelRight" value="name"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[5]]></timeline>
+        <option id="color.recent"><![CDATA[#99ff99 #ffcccc #9999ff #ccccff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="209" order="0"/>
+        <field id="1" name="Default role" width="85" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="3edc1adf5ac643adbf999ea1de9f08c8" name="Project Initiation" meeting="false" project="true" start="2025-10-15" duration="10" complete="0" expand="true">
+            <task id="8" uid="684fcd99ee444cf783453768117793c7" name="Define Scope &amp; Objectives" color="#99ff99" meeting="false" start="2025-10-15" duration="6" complete="0" expand="true">
+                <notes><![CDATA[v   ]]></notes>
+            </task>
+            <task id="9" uid="5af8482777f0474e848aaacd077e1d8f" name="Finalize Project Plan" color="#99ff99" meeting="false" start="2025-10-15" duration="10" complete="0" expand="true"/>
+        </task>
+        <task id="1" uid="38eac28652dd463d86f543c70ee444da" name="Epic 1: Data Collection &amp; Integration" meeting="false" project="true" start="2025-10-29" duration="17" complete="0" expand="true">
+            <task id="6" uid="ced7b12e98f4480ebc8f3f833ff42d0d" name="Data Integration" color="#9999ff" meeting="false" start="2025-10-29" duration="2" complete="0" expand="true"/>
+            <task id="5" uid="b32d66519e514e4bba5da7985f88a914" name="Data Preprocessing" color="#9999ff" meeting="false" start="2025-10-30" duration="5" complete="0" expand="true"/>
+            <task id="2" uid="8c037c4ec60f4a83adfeebb479fcc4f7" name="EDA" color="#9999ff" meeting="false" start="2025-11-04" duration="13" complete="0" expand="true"/>
+        </task>
+        <task id="11" uid="97e49e549230446f8a3c4f55c2db5f93" name="Epic 2: Model Development" meeting="false" start="2025-11-21" duration="15" complete="0" expand="true">
+            <task id="12" uid="9a860dd4be5f4013b70b0a4035d10187" name="Train baseline models" color="#ffcccc" meeting="false" start="2025-11-21" duration="7" complete="0" expand="true"/>
+            <task id="13" uid="6fda2c99cf25423eb093a4996db70810" name="Model Evaluation &amp; Validation" color="#ffcccc" meeting="false" start="2025-12-01" duration="4" complete="0" expand="true"/>
+            <task id="14" uid="9b04b6ca9d6141e4849bafcc9714cd9a" name="Model Selection" color="#ffcccc" meeting="false" start="2025-12-04" duration="6" complete="0" expand="true"/>
+        </task>
+        <task id="15" uid="0fea93b6a89f4dbf9135d79cfc3a1fd0" name="Epic 3: Dashboard &amp; CRM" meeting="false" start="2025-12-01" duration="25" complete="0" expand="true">
+            <task id="17" uid="e88aef76bb92494a8e77ce8880941281" name="Generate churn insights report" meeting="false" start="2025-12-01" duration="10" complete="0" expand="true"/>
+            <task id="16" uid="f7174dc6775a4cf9b4e9d8ba31cc8c94" name="Build dashboards (BI tool)" meeting="false" start="2025-12-05" duration="6" complete="0" expand="true"/>
+            <task id="18" uid="4bec42eafe994040949cce2ceae77219" name="Develop CRM model" meeting="false" start="2025-12-12" duration="11" complete="0" expand="true"/>
+            <task id="19" uid="20026148eb4542b6a621b9d24f8ee27a" name="Deployment of pilot system" meeting="false" start="2025-12-26" duration="4" complete="0" expand="true"/>
+            <task id="20" uid="44f72e167f8549f0956c7a33b9c91ea2" name="Review Meeting" meeting="false" start="2026-01-01" duration="2" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
